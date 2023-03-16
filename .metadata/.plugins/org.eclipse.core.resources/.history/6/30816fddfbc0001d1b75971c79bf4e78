@@ -1,0 +1,22 @@
+package CoreJava;
+
+public class StaticMethodsOverloading {
+	
+	public static void showData(String name) {
+		
+		System.out.println("person name");
+	
+	}
+	
+    public static void showData(int age) {
+		
+		System.out.println(30);
+	
+	}
+
+	public static void main(String[] args) {
+		
+		StaticMethodsOverloading.showData("Araf");
+		StaticMethodsOverloading.showData(30);	  
+	}
+}

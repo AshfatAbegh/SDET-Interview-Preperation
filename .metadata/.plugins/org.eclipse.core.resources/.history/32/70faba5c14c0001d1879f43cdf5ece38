@@ -1,0 +1,22 @@
+package CoreJava;
+
+public class MethodOverloading {
+  
+		public void printSalary(int salary) {
+			System.out.println("salary without bonus:" + salary);
+		}
+				
+		public void printSalary(int salary, double bonus) {
+			System.out.println("salary with bonus:" + (salary+bonus));
+		}
+
+
+    public static void main(String[] args) {
+
+    	MethodOverloading ol = new MethodOverloading();
+    	
+    	ol.printSalary(5000);
+    	ol.printSalary(5000, 2000);
+  }
+
+}

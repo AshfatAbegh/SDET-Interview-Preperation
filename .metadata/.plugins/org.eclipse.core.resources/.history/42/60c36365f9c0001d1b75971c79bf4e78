@@ -1,0 +1,10 @@
+package CoreJava;
+
+public class MethodOverloading_third_way {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}
