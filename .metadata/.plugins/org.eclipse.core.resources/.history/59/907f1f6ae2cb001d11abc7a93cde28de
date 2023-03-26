@@ -1,0 +1,10 @@
+package JavaProgrames;
+
+public class String_Characters_Count {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

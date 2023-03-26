@@ -1,0 +1,32 @@
+package JavaProgrames;
+
+import java.util.Scanner;
+
+public class Swap_two_numbers {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+        
+		//Method 1: By using third variable
+        
+        int a,b,temp;
+        
+        Scanner sc = new Scanner(System.in);
+        
+        System.out.print("Enter first number : ");
+        
+        a = sc.nextInt();//10
+        
+        System.out.print("Enter second number : ");
+        
+        b = sc.nextInt();//20
+        
+        temp = a;//temp1 = 10
+        a = b; //a = 20
+        
+        b = temp;//b = 10
+        
+        System.out.println("After swaping two numbers: " + a + "and" + b);
+	}
+
+}

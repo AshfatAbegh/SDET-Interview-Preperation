@@ -1,0 +1,10 @@
+package JavaProgrames;
+
+public class Check_Even_or_Odd {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

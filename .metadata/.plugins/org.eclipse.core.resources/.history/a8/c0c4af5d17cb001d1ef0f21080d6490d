@@ -1,0 +1,10 @@
+package JavaProgrames;
+
+public class Check_Positive_or_Negative_Number {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

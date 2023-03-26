@@ -1,0 +1,43 @@
+package JavaProgrames;
+
+import java.util.Scanner;
+
+public class Find_Even_Numbers_Between_Range {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+       int minimum, maximum;
+       
+       Scanner sc = new Scanner(System.in);
+       
+       System.out.println("Enter the minimum value : ");
+       
+       minimum = sc.nextInt();
+       
+       System.out.println("Enter the maximum value : ");
+       
+       maximum= sc.nextInt();
+       
+       findEvenNo(minimum,maximum);
+        
+	}
+	
+	public static void findEvenNo(int minimum, int maximum)
+	{
+		int i;
+		
+		if(minimum % 2!= 0)
+		{
+			minimum++;
+		}
+		
+		for(i = minimum; i<= maximum; i++)
+		{
+			if(i%2 == 0)
+			{
+				  System.out.println(i);
+			}
+		}
+	}
+
+}

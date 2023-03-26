@@ -35,7 +35,7 @@ public class Count_Odd_Number_in_Array {
 			}
 		}
 		
-		System.out.println("\n Total number of odd numbers present in this array :" + oddCount);
+		System.out.println("\n Total number of odd numbers present in this array: " + oddCount);
 	}
 
 }

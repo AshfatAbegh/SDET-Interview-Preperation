@@ -1,0 +1,10 @@
+package JavaProgrames;
+
+public class Sum_of_Odd_Even_Numbers {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

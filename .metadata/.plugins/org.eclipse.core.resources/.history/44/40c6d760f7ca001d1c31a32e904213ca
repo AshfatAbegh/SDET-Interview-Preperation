@@ -1,0 +1,27 @@
+package JavaProgrames;
+
+import java.util.Scanner;
+
+public class Divisible_Checking {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+        int number;
+        
+        Scanner sc = new Scanner(System.in);
+        
+        System.out.println("Enter any number to check wether number is divisible by 3 and 9: ");
+	    
+        number = sc.nextInt();
+        
+        if(number % 3 == 0) && (number % 9 == 0)
+        {
+        	 System.out.println("Given number" + number +"is divisible by 3 and 9");
+        }
+        else
+        {
+        	System.out.println("Given number" + number +"is not divisible by 3 and 9");
+        }
+	}
+
+}

@@ -1,0 +1,10 @@
+package JavaProgrames;
+
+public class Count_Digits_In_a_Number {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}
