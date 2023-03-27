@@ -1,0 +1,10 @@
+package JavaProgrames;
+
+public class Vowels_and_Consonants {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}
